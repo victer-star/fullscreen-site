@@ -107,3 +107,119 @@ img {
   background-size: cover;
   background-position: center top;
 }
+
+/*------------- ホーム部分 -------------*/
+#news {
+  background-image: url(../images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+#news .page-title {
+  text-align: center;
+}
+
+.news-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* メイン記事部分 */
+article {
+  width: 74%;
+}
+
+.post-info {
+  position: relative;
+  padding-top: 4px;
+  margin-bottom: 40px;
+}
+
+.post-date {
+  background-color: #0bd;
+  position: absolute;
+  border-radius: 50%;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  font-size: 1.625rem;
+  top: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.post-date span {
+  font-size: 1rem;
+  border-top: 1px rgba(255, 255, 255, 0.5) solid;
+  padding-top: 6px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.post-title {
+  font-family: "Sawarabi Mincho", serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.post-title,
+.post-cat {
+  margin-left: 120px;
+}
+
+article img {
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+/* サイド部分 */
+aside {
+  width: 22%;
+}
+
+.sub-title {
+  font-size: 1.375rem;
+  border-bottom: 2px #0bd solid;
+  padding: 0 8px 8px;
+  font-weight: normal;
+}
+
+.sub-menu {
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+.sub-menu li {
+  border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a {
+  color: #432;
+  display: block;
+  padding: 10px;
+}
+
+.sub-menu a:hover {
+  color: #0bd;
+}
+
+aside p {
+  padding: 12px 10px;
+}
+
+/*------------- フッター部分 -------------*/
+footer {
+  background-color: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
