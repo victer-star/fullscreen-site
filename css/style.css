@@ -212,6 +212,46 @@ aside p {
   padding: 12px 10px;
 }
 
+/*---------- メニュー部分 ----------*/
+#menu {
+  background-image: url(../images/menu-bg.jpg);
+  min-height: 100vh;
+}
+
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+
+.menu-content .page-title {
+  text-align: center;
+}
+
+.menu-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 0;
+}
+
+/*------------- コンテンツ部分 --------------*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 26px;
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+
+.big-box {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.big-box img {
+  height: 94%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /*------------- フッター部分 -------------*/
 footer {
   background-color: #432;
