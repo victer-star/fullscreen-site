@@ -81,4 +81,31 @@
   .big-box img {
     height: auto;
   }
+
+  /*------- コンタクト部分 --------*/
+  #contact .page-title {
+    margin-top: 48px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
+  }
+
+  /*------- 店舗情報と地図とSNS ---------*/
+  #location .wrapper,
+  #sns .wrapper {
+    flex-direction: column;
+  }
+
+  .location-info,
+  .location-map,
+  .sns-box {
+    width: 100%;
+  }
+
+  .sns-box {
+    margin-bottom: 30px;
+  }
 }
