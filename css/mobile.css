@@ -71,4 +71,14 @@
   .post-cat {
     margin-left: 80px;
   }
+
+  /*------- コンテンツ部分 --------*/
+  .big-box {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .big-box img {
+    height: auto;
+  }
 }
